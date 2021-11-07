@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #222222;
+    color: white;
+}
+.menuBG{
+    background-color: #F0A83E;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #3C2313;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+}
+.menuInside{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+}
+.sectionBanner{
+    background-image: url('../images/bowl-and-pet-daities-on-green-background 1.png');
+    width: 1025px;
+    height: 409px;
+}
+.changePosition{
+    position: relative;
+    left: 600px;
+    top: 50px;
+    z-index: 10;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3C2313;
+}
+.comederos{
+    position: relative;
+    left: 650px;
+    top: 100px;
+    z-index: 10;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    background-color:  #F0A83E;
+    border-radius: 5px;
+    width: 141px;
+    height: 49px;
+    text-align: center;
+}
+h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+.fontProducts{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+.fontPrices{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+.estilo{
+    background-color: #3C2313;
+    color: white;
+}
+
+#font{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:700;
+    line-height: 23px;
+    color: #3C2313;
+    font-size: 20px;
+}
+.catYDog{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+#marron{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:700;
+    line-height: 23px;
+    color: #F0A83E;
+    font-size: 20px;
+}
+.letraPequeña{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+.fa-thumbtack{
+    font-size: 50px;
+}
+.fa-mobile-alt{
+    font-size: 50px;
+}
+.fa-envelope-square{
+    font-size: 50px;
+}
+footer{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
