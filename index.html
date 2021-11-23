@@ -5,60 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Pet Shop</title>
   </head>
   <body>
+
+    <!-- HEADER -->
     <header>
-      <p>Grandes ofertas en comederos</p>
-      <ul type="none">
+      <p id="paddingleft">Grandes ofertas en comederos</p>
+      <ul class="lista" type="none">
         <li>Español</li>
-        <li>$ARG</li>
+        <li>ARG$</li>
       </ul>
     </header>
+
+    <!-- NAVEGACIÓN -->
     <section class="menuBG">
-    <a id="font">Front</a><a class="catYDog">Cat&Dog</a> <br>
-    <span class="menuInside">
-        <i class="fas fa-paw"></i>
-        <a>Categorías</a> </span>
-    <span class="menuInside"><i class="fas fa-paw"></i>
-        <a>Pets</a> </span>
-    <span class="menuInside"><i class="fas fa-paw"></i>
-        <a>Nosotros</a> </span>
-    <span class="menuInside"><i class="fas fa-paw"></i>
-        <a>Contáctanos</a> </span>
+      <img class="logoPS" src="../petShopPage/images/Logo(1).png" alt="LOGO">
+      <ul class="nav" type="none">
+        <li><i class="fas fa-paw"></i><a class= "nava" href="">Categorías</a></li>
+        <li><i class="fas fa-paw"></i><a class= "nava" href="">Pets</a></li>
+        <li><i class="fas fa-paw"></i><a class= "nava" href="">Nosotros</a></li>
+        <li><i class="fas fa-paw"></i><a class= "nava" href="">Contáctanos</a></li>
+      </ul>
     </section>
-    <h1>¡Es un placer tenerte aquí!</h1>
+
+    <!-- BANNER -->
     <section class="sectionBanner">
-      <p class="changePosition">¡Comederos en descuento!</p>
-      <a class="comederos"href="" target=_blank>COMEDEROS</a><br/>
+      <div>
+        <div>
+          <h1>¡Es un placer tenerte aquí!</h1>
+        </div>
+        <div class="comederosdto">
+          <p>¡Comederos en descuento!</p>
+        </div>
+        <div class="comederos">
+          <a class="hyper" href="" target="_blank">COMEDEROS</a>
+        </div>
+      </div>
     </section>
-    <img src="images/pawprint 1.png" alt="PATITA" />
-    <h2>Productos Destacados</h2>
-    <p>Comederos - Accesorios - Comida</p>
-    <img src="images/churrasquito.png" alt="CHURRASQUITO" />
-    <p class="fontProducts">Juguete Churrasquito</p>
-    <p class="fontPrices">$150</p>
-    <img src="images/comedero.png" alt="COMEDERO" />
-    <p class="fontProducts">Comedero para perro</p>
-    <p class="fontPrices">$250</p>
-    <img src="images/Huesito.png" alt="HUESITO" />
-    <p class="fontProducts">Juguete Huesito</p>
-    <p class="fontPrices">$650</p>
+
+    <!-- PRODUCTOS -->
+    <section>
+      <div class="prod">
+        <img src="images/pawprint 1.png" alt="PATITA" />
+        <h2>Productos Destacados</h2>
+        <p>Comederos - Accesorios - Comida</p>
+      </div>
+        <div class="sectprod">
+        <div class="divprod">
+          <img src="images/churrasquito.png" alt="CHURRASQUITO" />
+          <p class="fontProducts">Juguete Churrasquito</p>
+          <p class="fontPrices">$150</p>
+        </div>
+        <div class="divprod">
+          <img src="images/comedero.png" alt="COMEDERO" />
+          <p class="fontProducts">Comedero para perro</p>
+          <p class="fontPrices">$250</p>
+        </div>
+        <div class="divprod">
+          <img src="images/Huesito.png" alt="HUESITO" />
+          <p class="fontProducts">Juguete Huesito</p>
+          <p class="fontPrices">$650</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTANOS -->
+    <section class="sectcont">
+      <h3>Contáctanos</h3>
+      <div class="divcont">
+        <p>Nombre y Apellido</p>
+      </div>
+      <div class="divcont">
+        <p>Ingresá tu correo electrónico</p>
+      </div>
+      <div class="divcont">
+        <p>Teléfono</p>
+      </div>
+      <div>
+        <button class="butres" type="button">Resetear</button>
+        <button class="butsend" type="button">Enviar</button>
+      </div>
+    </section>
+
+    <!-- SUSCRIBIRSE -->
+    <section class="sectsus">
+      <div class="flex">
+        <i class="fas fa-bell"></i>
+        <p id="margin">Suscríbete para más novedades</p>
+      </div>
+      <div class="flex">
+        <div class="fontsus">
+        <p>Ingresá tu correo electrónico</p>
+        </div>
+        <button class="butsus" type="button">Suscribirme</button>
+      </div>
+    </section>
+
+    <!-- INFORMACION -->
     <section class="estilo">
+      <div class="flexcol">
+      <div class="flexinfo"> 
         <i class="fas fa-thumbtack"></i>
-        <p class="catYDog">Localidad</p>
+        <div class="flexletra">
+        <p class="fontinfo">Localidad</p>
         <p class="letraPequeña">Calle - provincia</p>
+      </div>
+      </div>
+      <div class="flexinfo">
         <i class="fas fa-mobile-alt"></i>
-        <p class="catYDog">Número de teléfono</p>
+        <div class="flexletra">
+        <p class="fontinfo">Número de teléfono</p>
         <p class="letraPequeña">15-1111-1111</p>
+      </div>
+      </div>
+      <div class="flexinfo">
         <i class="fas fa-envelope-square"></i>
-        <p class="catYDog">Correo Electrónico</p>
+        <div class="flexletra">
+        <p class="fontinfo">Correo Electrónico</p>
         <p class="letraPequeña">sarasa@gmail.com</p>
-        <a class="catYDog">Front</a><a id="marron">Cat&Dog</a> <br>
+      </div>
+      </div>
+      </div>
+      <div>
+        <img src="../petShopPage/images/Logo (3).png" alt="LOGO">
+      </div>
     </section>
     <footer>Todos los derechos reservados Front End</footer>
   </body>
